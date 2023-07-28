@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
+***Fibonacci***
 def fn(n):
     if n == 1:
         return 0
@@ -21,9 +16,7 @@ else:
     print("Error in input")
 
 
-# In[ ]:
-
-
+***conversion binary to decimal***
 def bin2Dec(val):
     rev=val[::-1]
     dec = 0
@@ -62,9 +55,7 @@ num2 = input("Enter a octal number : ")
 print(oct2Hex(num2))
 
 
-# In[ ]:
-
-
+***Program_3***
 sentence = input("Enter a sentence : ")
 
 wordList = sentence.split(" ")
@@ -82,10 +73,7 @@ for ch in sentence:
 
 print("This sentence has", digCnt, "digits", upCnt, "upper case letters", loCnt, "lower case letters")
 
-
-# In[ ]:
-
-
+***program_3b***
 str1 = input("Enter String 1 \n")
 str2 = input("Enter String 2 \n")
 
